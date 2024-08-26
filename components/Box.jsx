@@ -7,6 +7,7 @@ function Box({ children, style }) {
     </View>
   );
 }
+
 export default Box
 const styles = StyleSheet.create({
   box: {

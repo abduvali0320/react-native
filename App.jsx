@@ -60,10 +60,10 @@ function App() {
 
       <View className='flex flex-row'>
         <Button title="increment" onPress={increment} />
-        <Button title="decriement" onPress={decriement} /> 
+        <Button title="decriement" onPress={decriement} />
       </View>
       <View>
-        <Text >Count: {state.count}</Text> 
+        <Text >Count: {state.count}</Text>
       </View>
 
       <View className='mt-5' >
